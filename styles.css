@@ -1,0 +1,319 @@
+
+/*---------------------top navigation bar----------------------*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.index {
+    background-image: url(https://static.wixstatic.com/media/c2aaae_b20f92a39983426b871e35dfe256b6d7~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1348,h_898,al_c,q_85,usm_0.66_1.00_0.01/c2aaae_b20f92a39983426b871e35dfe256b6d7~mv2_d_6000_4000_s_4_2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+
+}
+
+
+.topbar {
+    background: transparent;
+    height: 250px;
+    display: flex;
+    justify-content: Center;
+    align-items: center;
+    font-size: 18px;
+    top: 0;
+    z-index: 999;
+
+
+}
+
+
+.topbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+    z-index: 1;
+    width: 100%;
+    max-width: 100%;
+    margin-left: -25%;
+    padding: 0 50px;
+
+}
+
+
+.logoPic {
+    height: 200px;
+}
+
+
+
+
+#buttonLogo {
+    background: transparent;
+    border-color: transparent;
+    align-items: center;
+    margin-top: -1.5%;
+    margin-left: 15%;
+    width: 200px;
+    height: 200px;
+  
+}  
+
+
+
+
+.topbarMenu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+
+}
+
+
+.topbarOptions {
+    height: 100px;
+    
+}
+.diffOptions {
+    margin-top: -10%;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 16px;
+
+}
+
+
+
+a.diffOptions:hover {
+    color: black;
+}
+
+
+#unofficial {
+    font-size: 16px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 16px;
+
+}
+
+
+/*--------------------------------------------------------------------*/
+
+
+
+
+.middle {
+    background-color: transparent;
+    height: 600px;
+}
+
+
+.bottom {
+    background-color: #E8DACC;
+    height: 800px;
+    width: 100%;
+    max-width: 2600px;
+    overflow: hidden;
+}
+
+
+
+.onebox {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.map {
+    padding-top: 30px;
+}
+
+.insideRB {
+    margin-top: 30px;
+    margin-left: 80%;
+    color: aliceblue;
+    height : 90%;
+    width: 160px;
+}
+
+
+
+
+.toAbout:link {
+    color: black;
+}
+.toAbout:visited {
+    color: black;
+}
+
+
+
+.title {
+    margin-top: 20px;
+}
+.content {
+    margin-top: 5px;
+}
+
+
+.leftTop {
+    display: flex;
+    height: 450px;
+    width: 100%;
+    /* border: 3px solid; */
+    justify-content: center;
+}
+
+
+
+
+
+.leftBottom {
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.pic {
+    margin-left: 70px;
+    justify-content: center;
+    align-content: center;
+    width: 250px;
+    height: 250px;
+}
+
+
+.rtContent {
+    padding-top: 100px;
+    margin-left: 120px;
+    /* border: 3px solid; */
+    width: 450px;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.gotoAbout {
+    margin-top: 30px;
+}
+
+
+.toAbout {
+    font-size: 20px;
+}
+.preview {
+    border-bottom: 2px solid;
+}
+
+.comment {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.about {
+    background-image: url(coffee-worlds-biggest-source-of-antioxidants-1296x728-feature.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+
+.menu {
+    background-image: url(800px-Roasted_coffee_beans.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+.verybottom {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+}
+
+.backleft {
+    width: 50%;
+    height: 100%;
+    border-color: aliceblue;
+    justify-content: right;
+
+}
+
+
+
+
+
+.backright {
+    width: 50%;
+    height: 100%;
+    border-color: aliceblue;
+
+}
+
+
+.fa-instagram {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: aliceblue;
+}
+.fa-facebook {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 57px;
+    color: aliceblue;
+}
+
+
+.fa-twitter {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 57px;
+    color: aliceblue;
+}
+
+.fa-yelp {
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 57px;
+    color: aliceblue;
+}

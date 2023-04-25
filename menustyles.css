@@ -1,0 +1,104 @@
+
+
+.middleMenu {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.bottomMenu {
+    background-color: #E8DACC;
+    height: 850px;
+    width: 100%;
+    display: flex;
+}
+
+
+/*-----------------------------------------------*/
+
+.bottomboxOne {
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+
+    animation: 1s ease 0s 1 running slideIn;
+}
+
+
+@keyframes slideIn {
+    from {margin-top: 50%;}
+    to {margin-top: 0%;}
+    
+}
+
+.drinkType {
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+.coffeeDrinks {
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    border-top: 3px solid;
+
+}
+.drinks {
+    margin-top: 10px;
+}
+
+.sizes {
+    margin-top: 5px;;
+}
+
+
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+
+
+
+.bottomboxTwo {
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    animation: 1.5s ease 0s 1 running slideIn;
+}
+
+
+.bottomboxThree {
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    animation: 2s ease 0s 1 running slideIn;
+
+}
+
+
+.bottomboxFour {
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    animation: 2.5s ease 0s 1 running slideIn;
+
+}
+
+
+#special {
+    margin-top: 100px;
+}
+
+#special2 {
+    margin-top: 150px;
+}
+
+
+
